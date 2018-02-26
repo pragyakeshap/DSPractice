@@ -9,9 +9,10 @@ public class FindSum {
 	public static void main(String[] args) {
 		
 		int[] A = {1, 2, 4, 7, 11, 15};
+		System.out.println(findSum(A, 15));
 	}
 	
-	public boolean findSum(int[] A, int sum) {
+	public static boolean findSum(int[] A, int sum) {
 		int len = A.length;
 		List<Integer> ll =  new ArrayList<>();
 	
